@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <strong>練習</strong>
+  <strong>練習です。</strong>
 </body>
 
 </html>
