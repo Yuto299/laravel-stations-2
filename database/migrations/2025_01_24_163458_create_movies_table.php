@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id(); // IDカラム
             $table->text('title')->comment('タイトル');
             $table->text('image_url')->comment('画像');
+            $table->integer('published_year')->comment('公開年');
+            $table->boolean('is_showing')->default(false)->comment('上映中状況');
+            $table->text('description')->comment('概要');
             $table->timestamps();
         });
     }
